@@ -1,4 +1,4 @@
-* {
+* {/*Universal Selector*/
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/*Header Horiseon title HORI-N deisplay white over blue banner background */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,11 +19,11 @@ body {
     display: inline-block;
     font-size: 48px;
 }
-
+/*SEO in between white HORI-N displays a light grey */
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/*Nav in header positioning, font and font size*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,21 +35,21 @@ body {
 .header nav ul {
     list-style-type: none;
 }
-
+/*sets display inline and blocked*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*Nav link titles display in white with no decoration*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*pargraphs in section font size of 16px*/
 p {
     font-size: 16px;
 }
-
+/*hero image or header banner aspects */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,7 +58,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*placement of images in section content*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -74,7 +74,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/*Side bar postioning and design */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,23 +85,23 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*Consolidated parent class in aside with the same designs aspects*/
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*Consolidated title css in aside with the same designs aspects*/
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*Consolidated image/icon size and colour in aside with the same designs aspects*/
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*Consolidated parent class in section with the same designs aspects*/
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -110,23 +110,23 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*Consolidated image size in section with the same designs aspects*/
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
-
+/*Consolidated title css in section with the same designs aspects*/
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*Footer parent design*/
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/*H2 title in footer size*/
 .footer h2 {
     font-size: 20px;
 }
